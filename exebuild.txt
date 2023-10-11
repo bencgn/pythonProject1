@@ -1,0 +1,6 @@
+pip install pyinstaller
+
+
+cmd : pyinstaller -F -w -i icon.ico OpenBen.py
+pyinstaller -F -w -i icon.png main.py
+pyinstaller -F -w -i icon.png Test.py
